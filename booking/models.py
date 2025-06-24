@@ -7,7 +7,7 @@ class TypeRoom(models.Model):
     description = models.TextField(null=True, blank=True, verbose_name="Опис кімнати:")
 
     def __str__(self):
-        return f'Тип кімнати: {self.name}.'
+        return f'{self.name}'
     
 
     class Meta():
