@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Головна</a>
+          <a class="nav-link active" aria-current="page" href="{% url 'main' %}">Головна</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Посилання</a>
@@ -17,8 +17,8 @@
             Номери
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{% url 'main' %}">Люкс</a></li>
-            <li><a class="dropdown-item" href="{% url 'main' %}">Стандарт</a></li>
+            <li><a class="dropdown-item" href="{% url 'type_room_page' %}">Люкс</a></li>
+            <li><a class="dropdown-item" href="{% url 'type_room_page' %}">Стандарт</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Інформація про готель</a></li>
           </ul>
